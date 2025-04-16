@@ -1,6 +1,0 @@
-@PruebaTecnicaBack_HostAddress = http://localhost:5208
-
-GET {{PruebaTecnicaBack_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -1,13 +1,10 @@
+import { AppTheme } from "./theme";
+import { AppRouter } from "./router";
 
-import './App.css'
-import Login from './components/Table/Login'
-
-export const App =()=> {
-
+export const App = () => {
   return (
-    <>
-    <Login/>
-    </>
-  )
-}
-
+    <AppTheme>
+      <AppRouter />
+    </AppTheme>
+  );
+};
